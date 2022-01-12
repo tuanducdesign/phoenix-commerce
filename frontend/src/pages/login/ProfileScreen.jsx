@@ -136,7 +136,7 @@ const ProfileScreen = ({ location, history }) => {
                 text-center
                 className='table-sm'
               >
-                <thead style={{ backgroundColor: '#2cccff', color: 'white' }}>
+                <thead style={{ backgroundColor: '#3e305c', color: 'white' }}>
                   <tr>
                     <th>ID</th>
                     <th>DATE</th>
