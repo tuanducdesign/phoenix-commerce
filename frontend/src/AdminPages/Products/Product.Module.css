@@ -1,0 +1,282 @@
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.navigation {
+  position: fixed;
+  width: 300px;
+  height: 100%;
+  background: #1589ad;
+  transition: 0.5s;
+  overflow: hidden;
+  display: block;
+}
+
+.navigationActive {
+  position: fixed;
+  display: block;
+  width: 90px;
+  height: 100%;
+  background: #1589ad;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.navigationUnorderedList {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.navigationList {
+  position: relative;
+  width: 100%;
+  list-style: none;
+}
+
+.navigation ul li:hover {
+  background: #29cbff;
+  border-left: 4px solid white;
+}
+
+.navigation ul li:nth-child(1) {
+  margin-bottom: 20px;
+}
+
+.navigation ul li:nth-child(1):hover {
+  background: transparent;
+  border-left: none;
+}
+
+.navigationLink {
+  position: relative;
+  display: block;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navigationLinkIcon {
+  position: relative;
+  display: block;
+  min-width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.navigationIcon {
+  color: #fff;
+  font-size: 24px;
+}
+
+.navigationTitle {
+  position: relative;
+  display: block;
+  padding: 0 5px;
+  height: 60px;
+  line-height: 60px;
+  white-space: nowrap;
+}
+
+.navigationImage {
+  width: 10vw;
+  margin-left: 13px;
+}
+
+.main {
+  position: absolute;
+  width: calc(100% - 300px);
+  left: 300px;
+  min-height: 100vh;
+  background: #f5f5f5;
+  transition: 0.5s;
+}
+
+.mainActive {
+  width: calc(100% - 60px);
+  left: 60px;
+  position: absolute;
+  min-height: 100vh;
+  background: #f5f5f5;
+  transition: 0.5s;
+}
+
+ul {
+  padding-left: 0rem;
+}
+.topbar {
+  width: 100%;
+  background: #fff;
+  height: 60px;
+  display: flex;
+  padding: 0 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toggle {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.toggleChange {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.toggle::before {
+  content: "\f0c9";
+  font-family: fontAwesome;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  line-height: 60px;
+  font-size: 24px;
+  text-align: center;
+  color: #111;
+}
+
+.toggleChange::before {
+  content: "\f0c9";
+  font-family: fontAwesome;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  line-height: 60px;
+  font-size: 24px;
+  text-align: center;
+  color: black;
+}
+
+.search {
+  position: relative;
+  width: 400px;
+  margin: 0 10px;
+}
+
+.labelForm {
+  position: relative;
+  width: 100%;
+}
+
+.inputForm {
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  padding: 5px 20px;
+  padding-left: 35px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.iconSearch {
+  position: absolute;
+  left: 15px;
+  top: 12px;
+}
+
+.user {
+  position: relative;
+  min-width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.user img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.navigationMobile {
+  display: none;
+}
+
+.navigationMobileActive {
+  display: none;
+}
+
+.formContainer {
+  width: 95%;
+  margin: 2.5rem auto;
+  max-width: 400px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.buttonContainer{
+  display: grid;
+  place-items: center;
+}
+
+.errors {
+  color: red;
+}
+
+.inputforms {
+  text-align: start;
+  border-radius: 10px;
+  outline: none;
+  background-color: #e5e5e5;
+  border: 1px solid #ccc;
+}
+
+.buttonCenter{
+  display: grid;
+  place-items: center;
+  background-color: #1589ad;
+}
+
+@media screen and (max-width: 768px) {
+  .navigation {
+    z-index: 150;
+    width: 100%;
+  }
+
+  .navigationActive {
+    background: #e0f4fa;
+  }
+
+  .navigationImage {
+    width: 37vw;
+  }
+  .toggleChange {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+
+  .toggleChange::before {
+    content: "\f0c9";
+    font-family: fontAwesome;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    line-height: 60px;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+  }
+}

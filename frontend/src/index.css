@@ -1,0 +1,71 @@
+main {
+  min-height: 80vh;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem;
+}
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+.bread {
+  text-decoration: underline;
+}
+
+.img {
+  border-radius: 20px;
+}
+
+/* do not touch. For Product Category */
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #3e305c;
+  border-radius: 12px;
+}
+
+.cartBtn {
+  background-color: #3e305c;
+  border-radius: 0.5rem;
+}
+.cartBtn:hover {
+  background-color: white;
+  color: #3e305c;
+}
+.cartBtn:focus {
+  background-color: #3e305c;
+  color: white;
+  border-color: #3e305c;
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.5);
+}
+
+.shopBtn {
+  background-color: #3e305c;
+  border-radius: 0.5rem;
+}
+.shopBtn:hover {
+  background-color: white;
+  color: #3e305c;
+}
+
+.prod {
+  position: relative;
+}
+
+.prod .fas {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #3e305c;
+  font-size: 1.5rem;
+}
