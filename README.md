@@ -1,9 +1,8 @@
-# Maverick Digital Store
+# Phoenix Store
 
 > eCommerce platform built with the MERN stack.
 
-
-![MDS](https://github.com/RahmanC/mds_E_Commerce/blob/main/uploads/mds.PNG)
+![MDS](https://github.com/RahmanC/phoenix-commerce/blob/main/uploads/phoenix.PNG)
 
 ## Features
 
@@ -22,7 +21,6 @@
 - Mark orders as delivered option
 - Checkout with PayPal Integration
 - Database seeder (products & users)
-
 
 ## Usage
 
@@ -63,4 +61,3 @@ npm run server
 cd frontend
 npm run build
 ```
-

@@ -2,9 +2,7 @@ import axios from 'axios'
 import { FILTER_APPLE_ITEM } from './../constants/productCategoryReducer'
 
 export const filterproductCategory = (id) => async (dispatch) => {
-  const { data } = await axios.get(
-    `https://maverickstores.herokuapp.com/products/single/${id}`
-  )
+  const { data } = await axios.get(`api/products/${id}`)
 
   dispatch({
     type: FILTER_APPLE_ITEM,
