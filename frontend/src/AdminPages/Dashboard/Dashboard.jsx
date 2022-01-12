@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
-import Logo from './maverick_logo2.png'
+import Logo from './phoenix.png'
 import DashboardStyles from './Dasboard.Module.css'
 import { logout } from '../../redux/actions/userActions'
 import { NavDropdown } from 'react-bootstrap'
@@ -55,7 +55,7 @@ const Dashboard = ({ history }) => {
                   <img
                     className={DashboardStyles.navigationImage}
                     src={Logo}
-                    alt='MDS'
+                    alt='phoenix'
                   />
                 </span>
               </Link>

@@ -8,7 +8,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import Loader from '../../components/Loader'
 import Message from '../../components/Message'
 import Image from 'react-bootstrap/Image'
-import Logo from './maverick_logo2 copy.png'
+import Logo from './phoenix.png'
 
 const DisplayProducts = () => {
   const [isSidenav, setSidenavOpen] = useState(false)
@@ -52,7 +52,7 @@ const DisplayProducts = () => {
                     <img
                       className={DisplayProductStyles.navigationImage}
                       src={Logo}
-                      alt='MDS'
+                      alt='phoenix'
                     />
                   </span>
                 </Link>

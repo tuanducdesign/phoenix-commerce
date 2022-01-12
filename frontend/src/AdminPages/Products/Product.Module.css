@@ -11,7 +11,7 @@ body {
   position: fixed;
   width: 300px;
   height: 100%;
-  background: #1589ad;
+  background: #3e305c;
   transition: 0.5s;
   overflow: hidden;
   display: block;
@@ -22,7 +22,7 @@ body {
   display: block;
   width: 90px;
   height: 100%;
-  background: #1589ad;
+  background: #3e305c;
   transition: 0.5s;
   overflow: hidden;
 }
@@ -42,7 +42,7 @@ body {
 }
 
 .navigation ul li:hover {
-  background: #29cbff;
+  background: #6d589c;
   border-left: 4px solid white;
 }
 
@@ -140,7 +140,7 @@ ul {
 }
 
 .toggle::before {
-  content: "\f0c9";
+  content: '\f0c9';
   font-family: fontAwesome;
   position: absolute;
   width: 100%;
@@ -152,7 +152,7 @@ ul {
 }
 
 .toggleChange::before {
-  content: "\f0c9";
+  content: '\f0c9';
   font-family: fontAwesome;
   position: absolute;
   width: 100%;
@@ -224,7 +224,7 @@ ul {
   border-radius: 15px;
 }
 
-.buttonContainer{
+.buttonContainer {
   display: grid;
   place-items: center;
 }
@@ -241,10 +241,10 @@ ul {
   border: 1px solid #ccc;
 }
 
-.buttonCenter{
+.buttonCenter {
   display: grid;
   place-items: center;
-  background-color: #1589ad;
+  background-color: #3e305c;
 }
 
 @media screen and (max-width: 768px) {
@@ -269,7 +269,7 @@ ul {
   }
 
   .toggleChange::before {
-    content: "\f0c9";
+    content: '\f0c9';
     font-family: fontAwesome;
     position: absolute;
     width: 100%;

@@ -9,7 +9,7 @@ import Loader from '../../components/Loader'
 import Message from '../../components/Message'
 import { listOrders } from '../../redux/actions/orderActions'
 // import Image from 'react-bootstrap/Image';
-import Logo from './maverick_logo2 copy.png'
+import Logo from './phoenix.png'
 
 import { logout } from '../../redux/actions/userActions'
 
@@ -76,7 +76,7 @@ const OrderListPage = ({ history }) => {
                     <img
                       className={DisplayProductStyles.navigationImage}
                       src={Logo}
-                      alt='MDS'
+                      alt='phoenix'
                     />
                   </span>
                 </Link>

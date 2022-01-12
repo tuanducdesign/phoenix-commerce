@@ -3,7 +3,7 @@ import { useFormik } from 'formik'
 import * as Yup from 'yup'
 import { Row, Col, Container, Form, Button } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import Logo from './maverick_logo2.png'
+import Logo from './phoenix.png'
 import ProductStyles from './Product.Module.css'
 import { logout } from '../../redux/actions/userActions'
 import { useDispatch } from 'react-redux'
@@ -172,7 +172,7 @@ const ProductsCreation = ({ history, match }) => {
                   <img
                     className={ProductStyles.navigationImage}
                     src={Logo}
-                    alt='MDS'
+                    alt='phoenix'
                   />
                 </span>
               </Link>

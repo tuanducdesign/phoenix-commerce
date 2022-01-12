@@ -12,7 +12,7 @@ import {
   updateProduct,
 } from '../../redux/actions/productActions'
 // import Image from 'react-bootstrap/Image';
-import Logo from './maverick_logo2 copy.png'
+import Logo from './phoenix.png'
 import { logout } from '../../redux/actions/userActions'
 import FormContainer from '../../components/FormContainer'
 import { PRODUCT_UPDATE_RESET } from '../../redux/constants/productConstants'
@@ -149,7 +149,7 @@ const ProductEdit = ({ history, match }) => {
                     <img
                       className={DisplayProductStyles.navigationImage}
                       src={Logo}
-                      alt='MDS'
+                      alt='phoenix'
                     />
                   </span>
                 </Link>

@@ -11,7 +11,7 @@ body {
   position: fixed;
   width: 300px;
   height: 100%;
-  background: #1589ad;
+  background: #3e305c;
   transition: 0.5s;
   overflow: hidden;
   display: block;
@@ -22,7 +22,7 @@ body {
   display: block;
   width: 90px;
   height: 100%;
-  background: #1589ad;
+  background: #3e305c;
   transition: 0.5s;
   overflow: hidden;
 }
@@ -42,7 +42,7 @@ body {
 }
 
 .navigation ul li:hover {
-  background: #29cbff;
+  background: #6d589c;
   border-left: 4px solid white;
 }
 
@@ -140,7 +140,7 @@ ul {
 }
 
 .toggle::before {
-  content: "\f0c9";
+  content: '\f0c9';
   font-family: fontAwesome;
   position: absolute;
   width: 100%;
@@ -152,7 +152,7 @@ ul {
 }
 
 .toggleChange::before {
-  content: "\f0c9";
+  content: '\f0c9';
   font-family: fontAwesome;
   position: absolute;
   width: 100%;
@@ -216,16 +216,16 @@ ul {
   display: none;
 }
 
-.description{
+.description {
   width: 150px;
   height: 100px;
 }
 
-.productId{
-   width: 70px;
+.productId {
+  width: 70px;
 }
 
-.productName{
+.productName {
   width: 200px;
 }
 
@@ -236,7 +236,7 @@ ul {
   }
 
   .navigationActive {
-    background: #1589ad;
+    background: #3e305c;
   }
 
   .navigationImage {
@@ -251,7 +251,7 @@ ul {
   }
 
   .toggleChange::before {
-    content: "\f0c9";
+    content: '\f0c9';
     font-family: fontAwesome;
     position: absolute;
     width: 100%;

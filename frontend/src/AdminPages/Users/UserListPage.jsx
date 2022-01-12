@@ -9,7 +9,7 @@ import Loader from '../../components/Loader'
 import Message from '../../components/Message'
 import { listUsers, deleteUsers } from '../../redux/actions/userActions'
 // import Image from 'react-bootstrap/Image';
-import Logo from './maverick_logo2 copy.png'
+import Logo from './phoenix.png'
 import { logout } from '../../redux/actions/userActions'
 
 const UserListPage = ({ history }) => {
@@ -83,7 +83,7 @@ const UserListPage = ({ history }) => {
                     <img
                       className={DisplayProductStyles.navigationImage}
                       src={Logo}
-                      alt='MDS'
+                      alt='phoenix'
                     />
                   </span>
                 </Link>

@@ -12,7 +12,7 @@ import {
   updateUsers,
 } from '../../redux/actions/userActions'
 // import Image from 'react-bootstrap/Image';
-import Logo from './maverick_logo2 copy.png'
+import Logo from './phoenix.png'
 import { logout } from '../../redux/actions/userActions'
 import { USER_UPDATE_RESET } from '../../redux/constants/userConstants'
 import FormContainer from '../../components/FormContainer'
@@ -108,7 +108,7 @@ const UserListPage = ({ history, match }) => {
                     <img
                       className={DisplayProductStyles.navigationImage}
                       src={Logo}
-                      alt='MDS'
+                      alt='phoenix'
                     />
                   </span>
                 </Link>
